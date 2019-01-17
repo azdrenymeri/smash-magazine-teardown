@@ -17,6 +17,7 @@ body{
 
 .header-container{
     vertical-align: text-top;
+    clear:left;
 }
 
 .logo{
@@ -28,31 +29,43 @@ body{
 .logo img{
     width: 200px;
     height: 80px;
+    margin-top:33px;
 }
 .header-item {
     display: inline-block;
     margin: 16px;
+    
 }
 .header-item h2{
     width: 100%;
     text-align: center;
     margin-bottom: 0;
-   
-    /* background-color: #ccc; */
+    color: #ccc;
+   background-color: #ccc;
     height: 2.14857em;
+    
+    
 }
+
 .header-item p{
      font-size: 22px;
+     color: #ccc;
+     margin-top:8px;
+     background-color: #ccc;
 }
 .header-button h2{
     margin:  0;
+    
 }
 .header-button{
-    display: inline-block;
+    
     vertical-align: center;
     padding: 11px 14px;
     border: solid 3px white;
     border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+    
 }
 .body-container{
     width: auto;
@@ -72,12 +85,18 @@ body{
 }
 .b2{
     background:rgb(102, 102, 102);
+    padding-top:100px;
+    padding-left:100px;
 }
 .b3{
     background:rgb(151, 150, 150);
+    padding-top:100px;
+    padding-left:100px;
 }
 .b4{
     background:rgb(90, 89, 89);
+    padding-top:100px;
+    padding-left:100px;
 }
 .b1 .b2 .b3 .b4{
     display: inline-block;
@@ -90,7 +109,23 @@ body{
     width: 100%;
     
 }
+.floating-text-text{
+    width: 200px;
+    height: 50px;
+    background: rgb(212, 212, 212);
+    text-align: center;
+    display: inline-block;
+}
+.floating-text-text1{
+    width: 100px;
+    margin-top: -6.5px; 
+    height: 50px;
+    background: rgb(212, 212, 212);
+    text-align: center;
+    display: inline-block;
+}
 .article-picture{
+    transform: rotate(-7deg);
     display: inline-block;
     height: 60px;
     width: 60px;
@@ -101,10 +136,29 @@ body{
     float:left;
 }
 .article-name{
-    margin-left:4px;
-    height: 10px;
+    margin-left:15px;
+    margin-top:5px;
+    height: 30px;
     display: inline-block;
-    width: 70px;
+    width: 130px;
+    background:rgb(19, 19, 19);
+    float:left;
+}
+.article-text{
+    
+    height: 50px;
+    margin-top:80px;
+    width: 240px;
+    background:rgb(19, 19, 19);
+    clear:left;
+}
+.article-text1{
+
+    margin-left:10px;
+    margin-top:5px;
+    height: 15px;
+    display: inline-block;
+    width: 100px;
     background:rgb(19, 19, 19);
     float:left;
 }
