@@ -3,55 +3,52 @@ html,body,p{
     padding: 0;
 }
 
-
-
 .main-header{
     padding: 1em 0;
     background: #d33a2c;
-    position: relative;
-    min-height: 5.9375rem;
     color: #fff;
 }
-.main-header ul{
-    display: inline-block;
-    list-style:none;
-}
-.main-header figure {
-   vertical-align: top;
-}
-.main-header a{
-    text-align: center;
-}
+
 .main-header h2 {
-    background-color: #ccc;
-    height: 2.14857em;
-    width: 2em;
+
 }
-.main-header p {
-    background-color: #ccccff;
-    height: 2.14857em;
-    width: 4em;
+
+.header-container{
+    vertical-align: text-top;
 }
+
 .logo{
     font-size: 1em;
     float: left;
     line-height: 0;
-    width: 3em;
-    position: relative;
-    z-index: 1;
 }
 
-@media (min-width: 1350px) {
-
-    .logo {     
-       
-        margin-top: 1.0em;
-    }
+.logo img{
+    width: 200px;
+    height: 80px;
 }
-
-@media (min-width: 900px) {
-    .logo {
-         width: 10.0em;
-        margin-top: 1.5em;
-    }
-} 
+.header-item {
+    display: inline-block;
+    margin: 16px;
+}
+.header-item h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+   
+    /* background-color: #ccc; */
+    height: 2.14857em;
+}
+.header-item p{
+     font-size: 22px;
+}
+.header-button h2{
+    margin:  0;
+}
+.header-button{
+    display: inline-block;
+    vertical-align: center;
+    padding: 11px 14px;
+    border: solid 3px white;
+    border-radius: 8px;
+}
