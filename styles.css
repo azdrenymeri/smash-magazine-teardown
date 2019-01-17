@@ -57,15 +57,20 @@ body{
     margin:  0;
     
 }
+.header-btn {
+  display: inline-block;
+  margin: 16px;
+}
+
 .header-button{
-    
-    vertical-align: center;
-    padding: 11px 14px;
-    border: solid 3px white;
-    border-radius: 8px;
-    display: inline-block;
-    text-align: center;
-    
+   vertical-align: top;
+   margin-top: -46px;
+   font-size: 22px;
+   border:  solid 2px #ccc;
+   background: transparent;
+   color: #ccc;
+   border-radius: 7px;
+   padding: 10px 16px;
 }
 .body-container{
     width: auto;
@@ -135,6 +140,9 @@ body{
     margin:0; */
     float:left;
 }
+.article-picture:hover{
+    transform: rotate(0deg);
+}
 .article-name{
     margin-left:15px;
     margin-top:5px;
@@ -146,19 +154,29 @@ body{
 }
 .article-text{
     
-    height: 50px;
+    height: 60px;
     margin-top:80px;
-    width: 240px;
+    width: 70%;
     background:rgb(19, 19, 19);
     clear:left;
 }
 .article-text1{
 
-    margin-left:10px;
-    margin-top:5px;
-    height: 15px;
+    margin-left:16px;
+    margin-top:16px;
+    height: 23px;
     display: inline-block;
     width: 100px;
     background:rgb(19, 19, 19);
     float:left;
+}
+.article-arrow{
+    margin-left: 16px;
+    margin-top: 36px;
+    height: 23px;
+    display: block;
+    width: 100px;
+    background:white;
+    float:left;
+    clear: both;
 }
